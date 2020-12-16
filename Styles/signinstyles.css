@@ -1,0 +1,59 @@
+/* Color Pallete 
+	
+	Very Dark Gray - #242424
+	Dark Gray - #383838
+	Orange - #ffd500
+	Dark Orange - #cf7500
+	Light Orange - #ffe875
+	Frost White - #f4f4f4
+*/
+
+body{
+	color: white;
+}
+
+#contactH2{
+	margin-left: 320px;
+}
+
+#contactInfo{
+	padding-left:3%;
+}
+
+#content{
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+	color: white;
+	position: relative;
+}
+
+/* Sign In  
+---------------------------------*/
+#uname, #pass, #lname, #fname, #email, #phone{
+	border-radius: 10px;
+	height: 30px;
+	width: 300px;
+	font-size: 1.3em;
+}
+#signinBtn{
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 1.3em;
+	height: 50px;
+	width: 100px;
+	margin-left: 120px;
+	background-color: #ffd500;
+}
+label{
+	font-size: 1.5em;
+}
+form{
+	background-color: #383838;
+	width: 400px;
+	padding: 3%;
+	margin-left: 30%;
+	border-radius: 10px;
+	border: 2px solid #ffd500;
+}
+

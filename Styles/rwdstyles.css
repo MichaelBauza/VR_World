@@ -1,0 +1,255 @@
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  /* padding: 1%; */
+  width: 100%;
+  /* border: 1px solid red; */
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	body{
+		background-color: #141414;
+		color: white;
+	}
+	h1{
+		padding-left: 140px;
+		font-size: 1.9em;
+	}
+	#contactH2{
+		font-size: 2em;
+		margin-left: 0px;
+		width: 100%;
+	}
+	#ContactH1, #HeadsetH1{
+		font-size: 1.6em;
+	}
+	header{
+		margin-top: 50px;
+	}
+	#homeP{
+		padding: 3%;
+	}
+	footer{
+		position: fixed;
+		padding-left: 10px;
+		border-top: 3px solid #ffd500;
+		
+		z-index: 2;
+		opacity: .7;
+	}
+	#content{
+		margin-top: 25px;
+		z-index: 1;
+		position: relative;
+	}
+	
+	/* Links */
+	#leftLine{
+	height: 0px;
+	width: 0px;
+	}
+	nav{
+	margin-left: 20px;
+	margin-top: 180px;
+	padding-bottom: 0px;
+	height: 50px;
+	}
+
+	nav ul{
+		display: flex;
+		width: 100%;
+		
+	}
+	nav ul li  #newslink, #headsetlink,#contactlink{
+		margin-left: 0px;
+	}
+	#navlinks{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	#homelink, #newslink, #headsetlink,#contactlink{
+		font-size: 1.5em;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top: 10;
+		padding-bottom: 1%;
+		border: 2px solid #141414;
+		border-radius: 10px 10px 0px 0px;
+	}
+
+	
+	/* Images */
+	#mainLogo{
+	position: absolute;
+	z-index: 2;
+	top: 50px;
+	left: 20px;
+	width: 100px;
+	}
+	#homeMainImage{
+	display: block;
+	float: none;
+	max-width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	}
+	#facebookIcon{
+	display: none;
+	position: fixed;
+	width: 70px;
+	bottom: -7px;
+	left: 420px;
+	z-index: 3;
+	}
+	#TwitterIcon{
+	display: none;
+	position: fixed;
+	width: 60px;
+	bottom: -3px;
+	left: 350px;
+	z-index: 3;
+	}
+
+	/* NEWS PAGE 
+	---------------------*/
+	.pageBlock{
+	margin-left: 75px;
+	height: 400px;
+	}
+	.pageBlock p{
+		font-size: 1.5em;
+	}
+	#NewsH2{
+		text-align: center;
+	}
+		/* HEADSET 
+	----------------------*/
+	.pageBlockH{
+	width: 400px;
+	height: 600px;
+	margin-bottom: 10%;
+	}
+	.pageBlockH img{
+	width: 400px;
+	height: 300px;
+	}
+	.pageBlockH p{
+		font-size: 1.3em;
+	}
+	.pageBlockH h2{
+		padding-top: 25px;
+		padding-bottom: 0px;
+		text-shadow:	5px 3px 10px black;
+	}
+	#headsetH2{
+	font-size: 2em;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+
+	}
+	
+	/* SIGNIN PAGE 
+	------------------------*/
+	form{
+	margin-left: 5%;
+	margin-top: 20%;
+	}
+	#signin{
+		right: 20px;
+		width: 90px;
+		top: 20px;
+		padding: 2%;
+		z-index: 3;
+	}
+	#uname, #pass, #lname, #fname, #email{
+	border-radius: 10px;
+	height: 30px;
+	width: 300px;
+	font-size: 1.3em;
+	}
+	
+	/* Register PAGE 
+	------------------------*/
+	#registerForm{
+		margin-top: 10px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	/* Contact PAGE 
+	-------------------------*/
+	#contactH2{
+	margin-left: 100px;
+	padding-top: 4%;
+	}
+	#contactInfo{
+		margin-bottom: 11%;
+		
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	.col-s-1 {width: 8.33%;}
+	.col-s-2 {width: 16.66%;}
+	.col-s-3 {width: 25%;}
+	.col-s-4 {width: 33.33%;}
+	.col-s-5 {width: 41.66%;}
+	.col-s-6 {width: 50%;}
+	.col-s-7 {width: 58.33%;}
+	.col-s-8 {width: 66.66%;}
+	.col-s-9 {width: 75%;}
+	.col-s-10 {width: 83.33%;}
+	.col-s-11 {width: 91.66%;}
+	.col-s-12 {width: 100%;}
+	
+	#content{
+		padding-left: 100px;
+	}
+	/* Images */
+	#homeMainImage{
+	width: 500px;
+	border-radius: 50px;
+	margin: 1%;
+	}
+	#mainlogo{
+		margin-left: -100px;
+	}
+	
+	/* SIGNIN PAGE 
+	------------------------*/
+	form{
+	margin-left: 250px;
+	
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.col-1 {width: 8.33%;}
+	.col-2 {width: 16.66%;}
+	.col-3 {width: 25%;}
+	.col-4 {width: 33.33%;}
+	.col-5 {width: 41.66%;}
+	.col-6 {width: 50%;}
+	.col-7 {width: 58.33%;}
+	.col-8 {width: 66.66%;}
+	.col-9 {width: 75%;}
+	.col-10 {width: 83.33%;}
+	.col-11 {width: 91.66%;}
+	.col-12 {width: 100%;}
+} 

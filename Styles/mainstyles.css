@@ -1,0 +1,381 @@
+/* Color Pallete 
+	
+	Very Dark Gray - #242424
+	Dark Gray - #383838
+	Orange - #ffd500
+	Dark Orange - #cf7500
+	Light Orange - #ffe875
+	Frost White - #f4f4f4
+*/
+
+body{
+	background-color: #141414;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+#navlinks{
+	float: left;
+	position: relative;
+	margin-top: -140px;
+	margin-bottom: -25px;
+	z-index: 7;
+}
+h1{
+	position: relative;
+	color: #ffd500;
+	box-shadow: 0px 0px 6px 3px #343434;
+	text-shadow: 2px 2px 5px #242424;
+	background-image: linear-gradient(to right, #383838, #484848);
+	font-size: 3em;
+	padding-left: 300px;
+	border-top: 1px solid #ffd500;
+	border-bottom: 1px solid #ffd500;
+	padding-top: .5%;
+	padding-bottom: .5%;
+	z-index: 3;
+}
+h2{
+	font-size: 3em;
+}
+header{
+	padding-left: 0%;
+	padding-right: 0%;
+	transition: all .6s ease;
+}
+p{
+	font-size: 1.7em;
+}
+#homeP{
+	font-size: 1.4em;
+}
+footer{
+	position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+	z-index: 1;
+	background-color: #383838;
+	padding-top: 5px;
+	padding-left: 200px;
+	padding-bottom: 5px;
+	border-top: 1px solid #ffd500;
+	opacity: .8;
+}
+footer p{
+	color: rgb(116, 116, 116);
+	font-size: .8em;
+}
+#content{
+	color: white;
+	padding: 2%;
+	position: relative;
+	z-index: 1;
+}
+
+/* Navigation Links 
+---------------------------------*/
+
+nav{
+	float: left;
+	margin-left: 35px;
+	margin-top: 390px;
+}
+nav a{
+	background-color: #383838;
+	text-decoration: none;
+	font-size: 1.8em;
+	color: white;
+}
+nav a:hover{
+	background-color: #484848;
+	color: #ffd500;
+	transition: all .6s ease-in-out;
+}
+nav a:active{
+	background-color: #181818;
+	color: #cf7500;
+}
+nav ul{
+	list-style: none;
+	margin-left: -42px;
+}
+nav ul li{
+	margin-bottom: 40px;
+}
+#homelink, #newslink, #headsetlink,#contactlink{
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+#homelink{
+	padding-left: 21px;
+	padding-right: 21px;
+	border-radius: 10px;
+	border: 2px solid #ffd500;
+}
+#newslink{
+	padding-left: 23px;
+	padding-right: 23px;
+	border-radius: 10px;
+	border: 2px solid #ffd500;
+}
+#headsetlink{
+	padding-left: 30px;
+	padding-right: 30px;
+	border-radius: 10px;
+	border: 2px solid #ffd500;
+}
+#contactlink{
+	padding-left: 8px;
+	padding-right: 8px;
+	border-radius: 10px;
+	border: 2px solid #ffd500;
+}
+#signin{
+	position: absolute;
+	font-size: 1em;
+	background-color: #ffd500;
+	color: #383838;
+	text-decoration: none;
+	margin-left: 80%;
+	top: 60px;
+	right: 10;
+	border-radius: 5px;
+	box-shadow: 0px 0px 6px 3px #343434;
+	padding: .5%;
+	z-index: 4;
+}
+
+#signin:hover{
+	background-color: #ffe875;
+	transform: scale(110%);
+	transition: all .6s ease-in-out;
+}
+#signin:active{
+	background-color: #cf7500;
+}
+
+/* Images 
+--------------------------------*/
+#mainLogo{
+	position: absolute;
+	z-index: 2;
+	top: 150px;
+	left: 0px
+	
+}
+#mainLogo:hover{
+	transition: all 1s ease-in-out;
+	transform: scale(110%) rotate(180deg);
+}
+#homeMainImage{
+	float: right;
+	border-radius: 50px;
+	margin-left: 2%;
+}
+#leftLine{
+	position: fixed;
+	height: 100%;
+	width: 100px;
+	background-color: #ffd500;
+	box-shadow: 0px 0px 6px 3px #343434;
+	margin-left: 50px;
+	z-index: 2;
+}
+#facebookIcon{
+	position: fixed;
+	width: 70px;
+	bottom: 120px;
+	left: 73px;
+}
+#TwitterIcon{
+	position: fixed;
+	width: 60px;
+	bottom: 60px;
+	left: 77px;
+}
+#facebookIcon:hover, #TwitterIcon:hover{
+	transform: scale(120%);	
+	transition: all .6s ease;
+}
+
+/* NEWS STYLES 
+-------------------------------------------------------------------
+------------------------------------------------------------------*/
+
+header{
+	float: left;
+}
+
+main{
+	width: 100%;
+}
+
+footer p{
+	color: white;
+	font-size: .8em;
+}
+#content{
+	padding-left: 0px;
+}
+
+/* Page Blocks 
+------------------------------------*/
+.pageBlock{
+	background-image:	linear-gradient(to bottom, #4b4b4b, #141414); 
+	width: 300px;
+	height: 400px;
+	border-radius: 10px;
+	margin: 2%;
+	float: left;
+	transition: all .6s ease;
+}
+.pageBlock p{
+	font-size: 1.5em;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: center;
+}
+.newsBlockLink:link{
+	color: white;
+	cursor: pointer;
+}
+.newsBlockLink:visited{
+	color: white;
+	cursor: pointer;
+}
+.newsBlockLink:hover{
+	color: #ffd500;
+}
+
+/* Images 
+--------------------------------*/
+#homeMainImage{
+	float: right;
+	border-radius: 50px;
+	margin-left: 2%;
+}
+.pageBlock img{
+	width: 300px;
+	height: 200px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+
+/* HEADSET STYLES 
+----------------------------------------------------------------
+---------------------------------------------------------------*/
+
+#content{
+	padding-top: 50px;
+	text-align: center;
+	
+}
+#headsetH2{
+	background-image: linear-gradient(to bottom, #383838, #141414);
+	font-size: 2em;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	border-radius: 5px;
+}
+
+/* Page Blocks 
+------------------------------------*/
+.pageBlockH{
+	background-image: linear-gradient(to right,  rgb(36, 36, 36), #383838);
+	width: 800px;
+	height: auto;
+	border-radius: 10px;
+	margin: 2%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5px;
+}
+.pageBlockH p{
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-bottom: 2%;
+	text-align: center;
+}
+
+.pageBlockH h2{
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	margin-bottom: 0px;
+	text-align: center;
+	text-shadow: 5px 5px black;
+}
+.pageBlockH i{
+	font-size: .8em;
+}
+/* Images 
+--------------------------------*/
+.blockImg{
+	width: 800px;
+}
+
+
+/* SIGNIN STYLES 
+-----------------------------------------------------------------
+----------------------------------------------------------------*/
+
+body{
+	color: white;
+}
+
+#contactH2{
+	margin-left: 320px;
+}
+
+#contactInfo{
+	padding-left:3%;
+	background-image: linear-gradient( to left, #141414, rgb(46, 46, 46) );
+	border-radius: 20px
+}
+
+#content{
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+	color: white;
+	position: relative;
+}
+
+/* Sign In  
+---------------------------------*/
+#uname, #pass, #lname, #fname, #email, #phone{
+	border-radius: 10px;
+	height: 30px;
+	width: 300px;
+	font-size: 1.3em;
+}
+#signinBtn{
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 1.3em;
+	height: 50px;
+	width: 100px;
+	margin-left: 120px;
+	background-color: #ffd500;
+}
+#signinBtn:hover{
+	color: white;
+	cursor: pointer;
+	transition: all .3s ease;
+}
+label{
+	font-size: 1.5em;
+}
+form{
+	background-color: #383838;
+	width: 400px;
+	padding: 3%;
+	margin-left: 30%;
+	border-radius: 10px;
+	border: 2px solid #ffd500;
+
+}

@@ -1,0 +1,57 @@
+/* Color Pallete 
+	
+	Very Dark Gray - #242424
+	Dark Gray - #383838
+	Orange - #ffd500
+	Dark Orange - #cf7500
+	Light Orange - #ffe875
+	Frost White - #f4f4f4
+*/
+
+header{
+	float: left;
+}
+
+main{
+	width: 100%;
+}
+
+footer p{
+	color: white;
+	font-size: .8em;
+}
+#content{
+	padding-left: 0px;
+	
+}
+/* Page Blocks 
+------------------------------------*/
+.pageBlock{
+	background-color: #383838;
+	width: 300px;
+	height: 450px;
+	border-radius: 10px;
+	margin: 2%;
+	float: left;
+	transition: all .6s ease;
+}
+.pageBlock p{
+	padding-left: 3px;
+	padding-right: 3px;
+	text-align: center;
+}
+
+
+/* Images 
+--------------------------------*/
+#homeMainImage{
+	float: right;
+	border-radius: 50px;
+	margin-left: 2%;
+}
+.pageBlock img{
+	width: 300px;
+	height: 200px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}

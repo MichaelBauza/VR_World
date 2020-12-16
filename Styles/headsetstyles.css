@@ -1,0 +1,63 @@
+/* Color Pallete 
+	
+	Very Dark Gray - #242424
+	Dark Gray - #383838
+	Orange - #ffd500
+	Dark Orange - #cf7500
+	Light Orange - #ffe875
+	Frost White - #f4f4f4
+*/
+
+header{
+	float: left;
+}
+
+#content{
+	padding-top: 50px;
+	text-align: center;
+	
+}
+#headsetH2{
+	background-image: linear-gradient(to right, #383838, #484848);
+	font-size: 2em;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+}
+
+/* Page Blocks 
+------------------------------------*/
+.pageBlockH{
+	background-color: #383838;
+	width: 800px;
+	height: 600px;
+	border-radius: 10px;
+	margin: 2%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5px;
+}
+.pageBlockH p{
+	padding-left: 3px;
+	padding-right: 3px;
+	text-align: center;
+}
+
+.pageBlockH h2{
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 10px;
+	text-align: center;
+}
+.pageBlockH i{
+	font-size: .8em;
+}
+/* Images 
+--------------------------------*/
+#leftLine{
+	height: 185em;
+}
+.blockImg{
+	width: 800px;
+}
