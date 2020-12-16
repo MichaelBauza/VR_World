@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<title>VR World - Home</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="Styles/mainstyles.css">
+		<link rel="stylesheet" href="Styles/rwdstyles.css">
+	</head>
+	
+	<body>
+		
+		<div id="leftLine"></div>
+		
+		<div class="row"><!--Start of Row 1-->
+			<header class="col-12">
+				
+				<h1 id="ContactH1">VR World - Contact</h1>
+				<a id="signin" href="signin.html">Sign in</a>
+				
+			</header>
+		</div><!--End of Row 1-->
+		
+		<main class="row"><!--Start of Row 2-->
+			
+			<div id="navlinks" class="col-2 col-s-1"><!--Start of Row 2 Col 1-->
+				<img src="Media/main_logo.png" id="mainLogo" title="Main Logo" alt="Main Logo">
+			
+				<nav>
+					<ul>
+						<li><a id="homelink" href="index.html">Home</a></li>
+						<li><a id="newslink" href="news.html">News</a></li>
+						<li><a id="headsetlink" href="headsets.html">Sets</a></li>
+						<li><a id="contactlink" href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+			
+				<a href="#"><img src="Media/facebook.png" id="facebookIcon" title="Facebook" alt="Facebook icon"></a>
+				<a href="#"><img src="Media/Twitter.png" id="TwitterIcon" title="Twitter" alt="Twitter icon"></a>
+				
+			</div><!--End of Row 2 Col 1-->
+			
+			<div class="col-6">
+				
+				<h2 id="contactH2">Submit a Request</h2>
+				<form method="get" action="/contact.aspx" id="registerForm" name="contactform" >
+					<label for="fname">First Name:</label><br>
+					<input type="text" id="fname" name="fname"><br><br>
+					<label for="lname">Last Name:</label>
+					<input type="text" id="lname" name="lname"><br><br>
+					<label for="email">Email:</label><br>
+					<input type="email" id="email" name="email" required><br><br>
+					<label for="phone">Phone Number:</label><br>
+					<input type="tel" id="phone" name="phone" placeholder="(000) 000-0000"><br><br>
+				
+					<input type="submit" id="signinBtn" value="Submit">
+				</form>
+			</div>
+			
+			<div id="contactInfo" class="col-4">
+			<h2>Contact Us!</h2>
+				<p>Fax: 222-222-222<br>
+				   Phone: (262) 123 - 4567<br>
+				   Email: <a href="mailto:Michael@Bauza.com">Michael@Bauza.com</a></p>
+			</div>
+		</main>
+		
+		<div class="row">
+			<div class="col-12">
+				<footer>
+					<p>Copyright &copy; 2020, all rights reserved</p>
+				</footer>
+			</div>
+		</div>
+	</body>
+
+
+</html>
